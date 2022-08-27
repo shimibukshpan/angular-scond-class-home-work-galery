@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { InputsComponent } from './inputs/inputs.component';
+import { DisplayImagesComponent } from './display-images/display-images.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InputsComponent,
+    DisplayImagesComponent
   ],
   imports: [
     BrowserModule,
